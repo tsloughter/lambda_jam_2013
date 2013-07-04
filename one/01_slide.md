@@ -191,8 +191,13 @@ Ability to keep working to a level of satisfaction in the presence of failure
 
 * Per process
 * Heap per process
-
 * Concurrent
+
+!SLIDE center
+# Modify and Inspect Live System  #
+
+![fuck everything](../images/fuck-everything-o.gif)
+
 !SLIDE bullets
 # Erlang Middleware #
 
