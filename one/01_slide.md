@@ -48,7 +48,7 @@
 * Joe creates Erlang in 1986, language with concurrency and error recovery built in
 * Joe's thesis mentions 9 9's for AXD301
 
-!SLIDE center
+!SLIDE bullets
 # Erlang's Focused on Features #
 
 * Concurrency
@@ -89,7 +89,7 @@ Copycats ![other](../images/other_ft.gif)
 * Novice or no Erlang experience
 
 
-!SLIDE center
+!SLIDE bullets
 # What is Fault Tolerance? #
 
 Ability to keep working to a level of satisfaction in the presence of failure
@@ -130,7 +130,7 @@ Ability to keep working to a level of satisfaction in the presence of failure
 * A process crash
 * No longer exists, all state lost
 
-!SLIDE center
+!SLIDE bullets
 # Erlang's Best Unknown Feature #
 
 * Language comparisons to Erlang leave it out (except Akka)
