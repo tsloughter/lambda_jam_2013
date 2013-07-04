@@ -1,9 +1,6 @@
 !SLIDE
 # Let it Crash #
 ## Tristan Sloughter ##
-### @t_sloughter ###
-### tristan@heroku.com ###
-### github.com/tsloughter ###
 
 !SLIDE bullets
 # Credits Already?? #
