@@ -1,4 +1,4 @@
-@import url('https://statics.herokuapp.com/fonts/fonts.css');
+@import url('./fonts/fonts.css');
 
 body {
 	color: #C6C2EF;
@@ -30,7 +30,7 @@ body {
 
 .commandline code.command{
   color: black;
-} 
+}
 
 pre {
   background-color: white;

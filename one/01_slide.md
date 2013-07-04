@@ -244,6 +244,6 @@ Ability to keep working to a level of satisfaction in the presence of failure
 !SLIDE bullets
 # References #
 
-* LYSE
-*
-* Erlang Central
+* LYSE : http://learnyousomeerlang.com/
+* OTP in Action: http://www.manning.com/logan/
+* Erlang Central : http://erlangcentral.org/
