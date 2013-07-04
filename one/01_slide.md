@@ -24,6 +24,11 @@
 * HTTP Request Routing
 * Logging (github.com/heroku/logplex)
 
+!SLIDE bullets
+# Who Are You? #
+
+* Engineers
+* Novice or no Erlang experience
 
 !SLIDE bullets
 # Outline #
@@ -81,13 +86,6 @@ Copycats ![other](../images/other_ft.gif)
 * Better delayed than lost
 * Better some than none
 * And better to inform of missing logs then them simply not be there
-
-!SLIDE bullets
-# Who Are You? #
-
-* Engineers
-* Novice or no Erlang experience
-
 
 !SLIDE bullets
 # What is Fault Tolerance? #
