@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>My Preso</title>
+
+  <meta name="viewport" content="width=device-width"/>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+  <script type="text/javascript" src="./js/coffee-script.js"></script>
+
+  
+    
+  
+
+  
+    <link rel="stylesheet" href="./file/showoff.css" type="text/css"/>
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+      setupPreso(false, './');
+  });
+  </script>
+
+</head>
+
+<body>
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">n</td><td>toggle notes</td></tr>
+    <tr><td class="key">p</td><td>run preshow</td></tr>
+    <tr><td class="key">P</td><td>toggle pause</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div class="slide" data-transition="none"><div class="content" ref="one/01_slide/1">
+<h1>Let it Crash</h1>
+
+<h2>Tristan Sloughter</h2>
+
+<h3>@t_sloughter</h3>
+
+<h3>tristan@heroku.com</h3>
+
+<h3>github.com/tsloughter</h3>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/2">
+<h1>Credits Already??</h1>
+
+<ul>
+<li>This OTP Life (http://thisotplife.tumblr.com/)</li>
+<li>Learn You Some Erlang (http://learnyousomeerlang.com/)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/3">
+<h1>Handles!</h1>
+
+<ul>
+<li>Github: tsloughter</li>
+<li>Twitter: @t_sloughter</li>
+<li>Email: tristan@heroku.com
+<img src="./file/one/../images/adventure-cat2.png" width="354" height="354" alt="octocat"/>
+</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/4">
+<h1>Who Am I?</h1>
+
+<ul>
+<li>Heroku routing infastructure engineer</li>
+<li>Routing</li>
+<li>Logging (github.com/heroku/logplex)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/5">
+<h1>Real World?</h1>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/6">
+<h1>History</h1>
+
+<ul>
+<li>Ericsson looking for best language for telecom systems</li>
+<li>Concurrency and error recovery at top of the list</li>
+<li>Lisp, Prolog, Parlog considered, but ruled out</li>
+<li>Joe creates Erlang in 1986, language with concurrency and error recovery built in</li>
+<li>Joe's thesis mentions 9 9's for AXD301</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/7">
+<h1>Erlang's Focused on Features</h1>
+
+<ul>
+<li>Concurrency</li>
+<li>Distribution</li>
+<li>Actors</li>
+<li>Green Threads</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/8">
+<h1>Without Error Recovery</h1>
+
+<p><img src="./file/one/../images/hill-of-beans.jpg" width="304" height="171" alt="hill of beans"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none">
+  <div class="content center" ref="one/01_slide/9">
+<h1>Fault Tolerance Compared</h1>
+
+<p>Erlang <img src="./file/one/../images/erlang_ft.gif" width="320" height="300" alt="erlang">
+Copycats <img src="./file/one/../images/other_ft.gif" width="290" height="163" alt="other"/>
+</img>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/10">
+<h1>Fault Tolerance in Routing</h1>
+
+<ul>
+<li>Many components can go wrong (bad request, bad response, missing dyno, missing records, overloaded, ...)</li>
+<li>Degradation better than no response</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/11">
+<h1>Fault Tolerance in Logging</h1>
+
+<ul>
+<li>Similar to routing issues</li>
+<li>Better delayed than lost</li>
+<li>Better some than none</li>
+<li>And better to inform of missing logs then them simply not be there</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/12">
+<h1>Outline</h1>
+
+<ul>
+<li>Fault Tolerance?</li>
+<li>It's OK to Crash?</li>
+<li>Unique Erlang Characteristics</li>
+<li>How it Simplifies Logic</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/13">
+<h1>Who Are You?</h1>
+
+<ul>
+<li>Engineers</li>
+<li>Novice or no Erlang experience</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/14">
+<h1>What is Fault Tolerance?</h1>
+
+<p>Ability to keep working to a level of satisfaction in the presence of failure</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/15">
+<h1>Isolation</h1>
+
+<p><img src="./file/one/../images/isolation4.png" width="540" height="481" alt="isolation"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/16">
+<h1>Graceful Degradation</h1>
+
+<p><img src="./file/one/../images/degraded.gif" width="500" height="250" alt="isolation"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/17">
+<h1>What is Let It Crash?</h1>
+
+<p><img src="./file/one/../images/let_it_crash.gif" width="396" height="297" alt="let it crash"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/18">
+<h1>Why it Matters</h1>
+
+<ul>
+<li>You'll never test every scenario (though QuickCheck/PropEr help)</li>
+<li>You don't want your system to go down!</li>
+<li>Defensive coding sucks</li>
+<li>Prepares you for the quick recovery from the unexpected</li>
+<li>And most important...</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/19">
+<h1>It Will Catch on Fire!</h1>
+
+<p><img src="./file/one/../images/homer_fire.gif" width="320" height="240" alt="catch on fire"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/20">
+<h1>What's a Crash?</h1>
+
+<ul>
+<li>A process crash</li>
+<li>No longer exists, all state lost</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/21">
+<h1>Erlang's Best Unknown Feature</h1>
+
+<ul>
+<li>Language comparisons to Erlang leave it out (except Akka)</li>
+<li>Can't be duplicated on existing VMs</li>
+<li>But why?</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/22">
+<h1>Erlang Isolation</h1>
+
+<ul>
+<li>Immutable</li>
+<li>Cheap process spawning</li>
+<li>Message passing</li>
+<li>Process monitoring and linking</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/23">
+<h1>Immutable</h1>
+
+<p><img src="./file/one/../images/un-bound.png" width="408" height="279" alt="variables"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/24">
+<h1>Ada Lovelace</h1>
+
+<p><img src="./file/one/../images/ada.jpg" width="1024" height="768" alt="ada"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/25">
+<h1>Message Passing</h1>
+
+<ul>
+<li>No Shared State</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/26">
+<h1>Lightweight Processes</h1>
+
+<ul>
+<li>Key to isolation, message passing and supervising</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/27">
+<h1>Monitor</h1>
+
+<ul>
+<li>Unidirectional</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/28">
+<h1>Link</h1>
+
+<ul>
+<li>Bidirectional</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/29">
+<h1>Link</h1>
+
+<p><img src="./file/one/../images/link-exit.png" width="337" height="178" alt="link"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/30">
+<h1>Erlang Graceful Degradation</h1>
+
+<ul>
+<li>Cheap process spawning</li>
+<li>Preemptive scheduling</li>
+<li>Concurrent garbage collection</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/31">
+<h1>Garbage Collection</h1>
+
+<ul>
+<li>Concurrent</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/32">
+<h1>Erlang Middleware</h1>
+
+<ul>
+<li>OTP: gen_server, supervisors, etc.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/33">
+<h1>OTP: The J2EE of Erlang?</h1>
+
+<p><img src="./file/one/../images/bush-ducking.gif" width="500" height="300" alt="duck"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/34">
+<h1>Server Common Pattern</h1>
+
+<p><img src="./file/one/../images/common-pattern.png" width="381" height="140" alt="server"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/35">
+<h1>Supervisors</h1>
+
+<p><img src="./file/one/../images/supervisor_error.gif" width="245" height="183" alt="supervisor error"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/36">
+<h1>One for All</h1>
+
+<p><img src="./file/one/../images/restart-one-for-all.png" width="439" height="150" alt="one for all"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/37">
+<h1>One for One</h1>
+
+<p><img src="./file/one/../images/restart-one-for-one.png" width="306" height="151" alt="one for one"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/38">
+<h1>Rest for One</h1>
+
+<p><img src="./file/one/../images/restart-rest-for-one.png" width="439" height="150" alt="rest for one"/>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/39">
+<h1>Init State</h1>
+
+<ul>
+<li>All process state is lost on crash</li>
+<li>Safe state to restart from</li>
+<li>Able to start accepting messages again from a error-free state</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/40">
+<h1>Pull it All Together</h1>
+
+<p>*</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/41">
+<h1>Back to Industry</h1>
+
+<p>*</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/42">
+<h1>References</h1>
+
+<ul>
+<li>LYSE : http://learnyousomeerlang.com/</li>
+<li>OTP in Action: http://www.manning.com/logan/</li>
+<li>Erlang Central : http://erlangcentral.org/</li>
+</ul>
+</div>
+</div></div>
+<div id="pauseScreen">
+  
+</div>
+
+</body>
+</html>
