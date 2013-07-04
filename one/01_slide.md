@@ -17,6 +17,7 @@
 * Github: tsloughter
 * Twitter: @t_sloughter
 * Email: tristan@heroku.com
+
 ![octocat](../images/adventure-cat2.png)
 
 !SLIDE bullets
@@ -25,6 +26,16 @@
 * Heroku routing infastructure engineer
 * Routing
 * Logging (github.com/heroku/logplex)
+
+
+!SLIDE bullets
+# Outline #
+
+* Erlang
+* Fault Tolerance
+* It's OK to Crash?
+* Unique Erlang Characteristics
+* OTP
 
 !SLIDE center
 # Real World? #
@@ -72,15 +83,6 @@ Copycats ![other](../images/other_ft.gif)
 * Better delayed than lost
 * Better some than none
 * And better to inform of missing logs then them simply not be there
-
-
-!SLIDE bullets
-# Outline #
-
-* Fault Tolerance?
-* It's OK to Crash?
-* Unique Erlang Characteristics
-* How it Simplifies Logic
 
 !SLIDE bullets
 # Who Are You? #
