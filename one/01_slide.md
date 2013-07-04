@@ -184,11 +184,14 @@ Ability to keep working to a level of satisfaction in the presence of failure
 
 * Cheap process spawning
 * Preemptive scheduling
-* Concurrent garbage collection
+* Garbage collection
 
 
 !SLIDE bullets
 # Garbage Collection #
+
+* Per process
+* Heap per process
 
 * Concurrent
 !SLIDE bullets
