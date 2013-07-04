@@ -40,6 +40,7 @@
 !SLIDE center
 # Real World? #
 
+![academic](../images/academic.png)
 
 !SLIDE bullets
 # History #
