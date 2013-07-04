@@ -186,7 +186,6 @@ Ability to keep working to a level of satisfaction in the presence of failure
 * Preemptive scheduling
 * Garbage collection
 
-
 !SLIDE bullets
 # Garbage Collection #
 
@@ -237,12 +236,18 @@ Ability to keep working to a level of satisfaction in the presence of failure
 !SLIDE bullets
 # Pull it All Together #
 
-*
+* Increased efficiency in writing scalable/fault-tolerant systems
+* But it won't do it for you
 
 !SLIDE bullets
 # Back to Industry #
 
-*
+* Ericsson
+* Heroku
+* Boundary
+* Basho
+* Amazon
+* Facebook
 
 !SLIDE bullets
 # References #
