@@ -21,7 +21,7 @@
 # Who Am I? #
 
 * Heroku routing infastructure engineer
-* Routing
+* HTTP Request Routing
 * Logging (github.com/heroku/logplex)
 
 
