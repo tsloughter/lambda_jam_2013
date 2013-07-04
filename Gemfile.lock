@@ -1,0 +1,56 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.3.4)
+    blankslate (2.1.2.4)
+    bluecloth (2.2.0)
+    daemons (1.1.9)
+    eventmachine (1.0.3)
+    excon (0.22.1)
+    gli (2.5.6)
+    heroku (2.39.3)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.11)
+      excon (~> 0.22.1)
+    json (1.8.0)
+    launchy (2.3.0)
+      addressable (~> 2.3)
+    mime-types (1.23)
+    netrc (0.7.7)
+    nokogiri (1.5.9)
+    parslet (1.5.0)
+      blankslate (~> 2.0)
+    rack (1.5.2)
+    rack-protection (1.5.0)
+      rack
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rubyzip (0.9.9)
+    showoff (0.7.0)
+      bluecloth
+      gli (>= 1.3.2)
+      json
+      nokogiri
+      parslet
+      sinatra
+    sinatra (1.4.2)
+      rack (~> 1.5, >= 1.5.2)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  heroku
+  showoff
+  thin
