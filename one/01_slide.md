@@ -237,6 +237,7 @@ Ability to keep working to a level of satisfaction in the presence of failure
 # Pull it All Together #
 
 * Increased efficiency in writing scalable/fault-tolerant systems
+* Non-defensive means shorter code: faster to develop, less bugs, easier to maintain
 * But it won't do it for you
 
 !SLIDE bullets
