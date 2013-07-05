@@ -208,6 +208,12 @@ Ability to keep working to a level of satisfaction in the presence of failure
 ![fuck everything](../images/fuck-everything-o.gif)
 
 !SLIDE bullets
+# Modify and Inspect Live System  #
+
+* Both overused
+* And an essential tool for long running systems
+
+!SLIDE bullets
 # Erlang Middleware #
 
 * OTP: gen_server, supervisors, etc.
@@ -253,6 +259,11 @@ Ability to keep working to a level of satisfaction in the presence of failure
 * Increased efficiency in writing scalable/fault-tolerant systems
 * Happy path programming means shorter code: faster to develop, less bugs, easier to maintain
 * But it won't do it for you
+
+!SLIDE center
+# Pagerduty #
+
+![pagerduty](../images/pagerduty.jpg)
 
 !SLIDE bullets
 # Back to Industry #
