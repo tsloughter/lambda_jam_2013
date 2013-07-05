@@ -177,6 +177,17 @@ Ability to keep working to a level of satisfaction in the presence of failure
 #Link #
 ![link](../images/link-exit.png)
 
+!SLIDE code
+# Trap Exit #
+
+    @@@ Erlang
+    process_flag(trap_exit, true),
+    ...
+    receive
+      {'EXIT', Pid, ...} ->
+          ...
+    end
+
 !SLIDE bullets
 # Erlang Graceful Degradation #
 
