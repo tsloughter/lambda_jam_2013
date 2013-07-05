@@ -20,7 +20,7 @@
 !SLIDE bullets
 # Who Am I? #
 
-* Heroku routing infastructure engineer
+* Heroku routing infrastructure engineer
 * HTTP Request Routing
 * Logging (github.com/heroku/logplex)
 
@@ -85,7 +85,7 @@ Copycats ![other](../images/other_ft.gif)
 * Similar to routing issues
 * Better delayed than lost
 * Better some than none
-* And better to inform of missing logs then them simply not be there
+* And better to inform of missing logs than them simply not be there
 
 !SLIDE bullets
 # What is Fault Tolerance? #
@@ -113,7 +113,7 @@ Ability to keep working to a level of satisfaction in the presence of failure
 
 * You'll never test every scenario (though QuickCheck/PropEr help)
 * You don't want your system to go down!
-* Defensive coding sucks
+* Defensive coding sucks (happy path instead!)
 * Prepares you for the quick recovery from the unexpected
 * And most important...
 
@@ -245,13 +245,13 @@ Ability to keep working to a level of satisfaction in the presence of failure
 
 * All process state is lost on crash
 * Safe state to restart from
-* Able to start accepting messages again from a error-free state
+* Able to start accepting messages again from an error-free state
 
 !SLIDE bullets
 # Pull it All Together #
 
 * Increased efficiency in writing scalable/fault-tolerant systems
-* Non-defensive means shorter code: faster to develop, less bugs, easier to maintain
+* Happy path programming means shorter code: faster to develop, less bugs, easier to maintain
 * But it won't do it for you
 
 !SLIDE bullets
