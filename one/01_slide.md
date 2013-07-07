@@ -103,6 +103,10 @@ Ability to keep working to a level of satisfaction in the presence of failure
 
 ![isolation](../images/degraded.gif)
 
+!SLIDE center
+# Recovery #
+![recovery](../images/recovery.gif)
+
 !SLIDE bullets
 # What is Let It Crash? #
 
@@ -142,6 +146,7 @@ Ability to keep working to a level of satisfaction in the presence of failure
 * Cheap process spawning
 * Message passing
 * Process monitoring and linking
+* Remote error handling
 
 !SLIDE bullets
 # Immutable #
@@ -187,6 +192,12 @@ Ability to keep working to a level of satisfaction in the presence of failure
       {'EXIT', Pid, ...} ->
           ...
     end
+
+!SLIDE bullets
+# Remote Error Recovery #
+
+* Handle process error in another process
+* Clear separation, observe job, restart if failure
 
 !SLIDE bullets
 # Erlang Graceful Degradation #
@@ -247,7 +258,7 @@ Ability to keep working to a level of satisfaction in the presence of failure
 ![rest for one](../images/restart-rest-for-one.png)
 
 !SLIDE bullets
-# Init State #
+# Recovery: Init State #
 
 * All process state is lost on crash
 * Safe state to restart from
