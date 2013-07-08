@@ -92,7 +92,6 @@ Copycats ![other](../images/other_ft.gif)
 
 Ability to keep working to a level of satisfaction in the presence of failure
 
-
 !SLIDE bullets
 # Isolation #
 
@@ -125,6 +124,12 @@ Ability to keep working to a level of satisfaction in the presence of failure
 # It Will Catch on Fire! #
 
 ![catch on fire](../images/homer_fire.gif)
+
+!SLIDE bullets
+# Heisenbugs Most Likely Source of Fire #
+
+* 1/132 bugs NOT Heisenbugs
+* Let it crash is often enough to fix production issues
 
 !SLIDE bullets
 # What's a Crash? #
@@ -298,3 +303,4 @@ Ability to keep working to a level of satisfaction in the presence of failure
 * LYSE : http://learnyousomeerlang.com/
 * OTP in Action: http://www.manning.com/logan/
 * Erlang Central : http://erlangcentral.org/
+* 1/132 : Jim Gray, Why Do Computers Stop and What Can Be Done About It? http://www.hpl.hp.com/techreports/tandem/TR-85.7.htmlhttp://www.hpl.hp.com/techreports/tandem/TR-85.7.html
