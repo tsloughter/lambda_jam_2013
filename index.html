@@ -244,6 +244,14 @@ Copycats <img src="./file/one/../images/other_ft.gif" width="290" height="163" a
 </p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/21">
+<h1>Heisenbugs Most Likely Source of Fire</h1>
+
+<ul>
+<li>1/132 bugs NOT Heisenbugs</li>
+<li>Let it crash is often enough to fix production issues</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/22">
 <h1>What's a Crash?</h1>
 
 <ul>
@@ -251,7 +259,7 @@ Copycats <img src="./file/one/../images/other_ft.gif" width="290" height="163" a
 <li>No longer exists, all state lost</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/22">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/23">
 <h1>Erlang's Best Unknown Feature</h1>
 
 <ul>
@@ -260,7 +268,7 @@ Copycats <img src="./file/one/../images/other_ft.gif" width="290" height="163" a
 <li>But why?</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/23">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/24">
 <h1>Erlang Isolation</h1>
 
 <ul>
@@ -271,53 +279,53 @@ Copycats <img src="./file/one/../images/other_ft.gif" width="290" height="163" a
 <li>Remote error handling</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/24">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/25">
 <h1>Immutable</h1>
 
 <p><img src="./file/one/../images/un-bound.png" width="408" height="279" alt="variables"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/25">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/26">
 <h1>Ada Lovelace</h1>
 
 <p><img src="./file/one/../images/ada.jpg" width="1024" height="768" alt="ada"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/26">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/27">
 <h1>Message Passing</h1>
 
 <ul>
 <li>No Shared State</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/27">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/28">
 <h1>Lightweight Processes</h1>
 
 <ul>
 <li>Key to isolation, message passing and supervising</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/28">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/29">
 <h1>Monitor</h1>
 
 <ul>
 <li>Unidirectional</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/29">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/30">
 <h1>Link</h1>
 
 <ul>
 <li>Bidirectional</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/30">
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/31">
 <h1>Link</h1>
 
 <p><img src="./file/one/../images/link-exit.png" width="337" height="178" alt="link"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content code" ref="one/01_slide/31">
+</div><div class="slide" data-transition="none"><div class="content code" ref="one/01_slide/32">
 <h1>Trap Exit</h1>
 
 <pre class="sh_erlang"><code>process_flag(trap_exit, true),
@@ -327,7 +335,7 @@ receive
       ...
 end</code></pre>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/32">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/33">
 <h1>Remote Error Recovery</h1>
 
 <ul>
@@ -335,7 +343,7 @@ end</code></pre>
 <li>Clear separation, observe job, restart if failure</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/33">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/34">
 <h1>Erlang Graceful Degradation</h1>
 
 <ul>
@@ -344,7 +352,7 @@ end</code></pre>
 <li>Garbage collection</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/34">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/35">
 <h1>Garbage Collection</h1>
 
 <ul>
@@ -353,7 +361,7 @@ end</code></pre>
 <li>Concurrent</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/35">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/36">
 <h1>Preemption</h1>
 
 <ul>
@@ -361,13 +369,13 @@ end</code></pre>
 <li>Based on reductions</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/36">
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/37">
 <h1>Modify and Inspect Live System</h1>
 
 <p><img src="./file/one/../images/fuck-everything-o.gif" width="320" height="176" alt="fuck everything"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/37">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/38">
 <h1>Modify and Inspect Live System</h1>
 
 <ul>
@@ -375,50 +383,50 @@ end</code></pre>
 <li>And an essential tool for long running systems</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/38">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/39">
 <h1>Erlang Middleware</h1>
 
 <ul>
 <li>OTP: gen_server, supervisors, etc.</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/39">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/40">
 <h1>OTP: The J2EE of Erlang?</h1>
 
 <p><img src="./file/one/../images/bush-ducking.gif" width="500" height="300" alt="duck"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/40">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/41">
 <h1>Server Common Pattern</h1>
 
 <p><img src="./file/one/../images/common-pattern.png" width="381" height="140" alt="server"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/41">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/42">
 <h1>Supervisors</h1>
 
 <p><img src="./file/one/../images/supervisor_error.gif" width="245" height="183" alt="supervisor error"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/42">
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/43">
 <h1>One for All</h1>
 
 <p><img src="./file/one/../images/restart-one-for-all.png" width="439" height="150" alt="one for all"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/43">
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/44">
 <h1>One for One</h1>
 
 <p><img src="./file/one/../images/restart-one-for-one.png" width="306" height="151" alt="one for one"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/44">
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/45">
 <h1>Rest for One</h1>
 
 <p><img src="./file/one/../images/restart-rest-for-one.png" width="439" height="150" alt="rest for one"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/45">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/46">
 <h1>Recovery: Init State</h1>
 
 <ul>
@@ -427,7 +435,7 @@ end</code></pre>
 <li>Able to start accepting messages again from an error-free state</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/46">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/47">
 <h1>Pull it All Together</h1>
 
 <ul>
@@ -436,13 +444,13 @@ end</code></pre>
 <li>But it won't do it for you</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/47">
+</div><div class="slide" data-transition="none"><div class="content center" ref="one/01_slide/48">
 <h1>Pagerduty</h1>
 
 <p><img src="./file/one/../images/pagerduty.jpg" width="250" height="250" alt="pagerduty"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/48">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/49">
 <h1>Back to Industry</h1>
 
 <ul>
@@ -454,13 +462,14 @@ end</code></pre>
 <li>Facebook</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/49">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="one/01_slide/50">
 <h1>References</h1>
 
 <ul>
 <li>LYSE : http://learnyousomeerlang.com/</li>
 <li>OTP in Action: http://www.manning.com/logan/</li>
 <li>Erlang Central : http://erlangcentral.org/</li>
+<li>1/132 : Jim Gray, Why Do Computers Stop and What Can Be Done About It? http://www.hpl.hp.com/techreports/tandem/TR-85.7.htmlhttp://www.hpl.hp.com/techreports/tandem/TR-85.7.html</li>
 </ul>
 </div>
 </div></div>
