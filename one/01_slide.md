@@ -213,6 +213,12 @@ Ability to keep working to a level of satisfaction in the presence of failure
 * Heap per process
 * Concurrent
 
+!SLIDE bullets
+# Preemption #
+
+* Low Latency
+* Based on reductions
+
 !SLIDE center
 # Modify and Inspect Live System  #
 
